@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependências
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Arquivos do Vite
+vite.config.local.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Ambiente / Segredos
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de teste / coverage
+coverage/
+*.lcov
+
+# Cache diversas ferramentas
+.cache/
+.eslintcache
+.parcel-cache/
